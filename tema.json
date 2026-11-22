@@ -1,0 +1,187 @@
+{
+  "name": "Arcade Dados v2",
+  "dataColors": [
+    "#FF2E93",
+    "#19E3FF",
+    "#FFC857",
+    "#7B2FF7",
+    "#3DDC84",
+    "#FF7A3D",
+    "#E6EDF3",
+    "#8A5CFF"
+  ],
+  "background": "#14103A",
+  "foreground": "#E6EDF3",
+  "tableAccent": "#FF2E93",
+  "good": "#3DDC84",
+  "neutral": "#FFC857",
+  "bad": "#FF2E93",
+  "textClasses": {
+    "title": {
+      "fontSize": 14,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#E6EDF3"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#E6EDF3"
+    },
+    "callout": {
+      "fontSize": 30,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#FFC857"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#14103A"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#7B2FF7"
+              }
+            },
+            "radius": 6
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": {
+              "solid": {
+                "color": "#E6EDF3"
+              }
+            },
+            "fontSize": 13
+          }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#E6EDF3"
+              }
+            },
+            "gridlineShow": false
+          }
+        ],
+        "valueAxis": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#E6EDF3"
+              }
+            },
+            "gridlineColor": {
+              "solid": {
+                "color": "#2A2257"
+              }
+            },
+            "gridlineShow": true
+          }
+        ],
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#E6EDF3"
+              }
+            }
+          }
+        ],
+        "legend": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#E6EDF3"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFC857"
+              }
+            },
+            "fontSize": 28
+          }
+        ],
+        "categoryLabels": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#19E3FF"
+              }
+            },
+            "fontSize": 12
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#0D0A24"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "cardVisual": {
+      "*": {
+        "label": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#19E3FF"
+              }
+            },
+            "fontSize": 12
+          }
+        ],
+        "value": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFC857"
+              }
+            },
+            "fontSize": 28
+          }
+        ],
+        "title": [
+          {
+            "show": false
+          }
+        ]
+      }
+    }
+  }
+}
